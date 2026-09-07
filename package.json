@@ -1,0 +1,28 @@
+{
+  "name": "pairgrid",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --filter @pairgrid/web dev",
+    "build": "pnpm --filter @pairgrid/engine build && pnpm --filter @pairgrid/web build",
+    "preview": "pnpm --filter @pairgrid/web preview",
+    "typecheck": "tsc --noEmit && tsc -p packages/engine/tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:engine": "vitest run packages/engine/test",
+    "test:web": "vitest run apps/web/src/test",
+    "check:boundary": "node scripts/check-boundary.mjs",
+    "check": "pnpm typecheck && pnpm check:boundary && pnpm test && pnpm build",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^22.19.0",
+    "typescript": "~5.9.3",
+    "vitest": "^4.0.18"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "packageManager": "pnpm@11.19.0"
+}
