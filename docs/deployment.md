@@ -16,6 +16,8 @@ git push -u origin main
 
 ## Companion ChatGPT Site
 
+Published at [pairgrid.humandmc.chatgpt.site](https://pairgrid.humandmc.chatgpt.site).
+
 The companion is a portfolio explanation, not another game implementation. It links to the public source and embeds the canonical Pages URL. It owns no game rules or engine fork.
 
 Content structure:

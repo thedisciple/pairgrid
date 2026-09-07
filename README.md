@@ -2,13 +2,19 @@
 
 A generalized constraint-placement strategy game: every move changes where your opponent can play.
 
-**[Play](https://thedisciple.github.io/pairgrid/) · [Source](https://github.com/thedisciple/pairgrid)**
+**[Play](https://thedisciple.github.io/pairgrid/) · [Project Site](https://pairgrid.humandmc.chatgpt.site) · [Source](https://github.com/thedisciple/pairgrid)**
 
 ![PairGrid in play: the spatial board and the next move's attribute constraints](docs/preview.png)
 
 Claim any tile to start. The next player must choose an unclaimed tile with the **same A attribute OR the same B attribute**. Your choices both build a spatial pattern and restrict your opponent. Play locally with a second person; no installation or account is needed.
 
 Win by claiming a row, column, diagonal, or contiguous 2×2 square—or by leaving your opponent no matching tile while unclaimed tiles remain.
+
+## Project links
+
+- [Play PairGrid](https://thedisciple.github.io/pairgrid/) — canonical GitHub Pages application.
+- [Project Site](https://pairgrid.humandmc.chatgpt.site) — visual introduction and research direction, with the canonical game embedded.
+- [Source](https://github.com/thedisciple/pairgrid) — engine, application, tests, and documentation.
 
 ## The model
 
